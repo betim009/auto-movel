@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(31, 29, 29);
+  height: 80px;
+}
+
+form {
+  padding: 20px;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+form button {
+  width: 90px;
+  height: 45px;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-weight: 600;
+  float: right;
+}
+
+
+
+.div-grid-2 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.menu-lateral {
+  background-color: rgb(31, 29, 29);
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.menu-lateral div {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-lateral div>button {
+  background-color: rgb(31, 29, 29);
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.menu-lateral div>button:hover {
+  background-color: blue;
+  width: 160px;
+}
